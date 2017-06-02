@@ -8,7 +8,7 @@ ext {
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    buildToolsVersion "25.0.3"
 
     defaultConfig {
         minSdkVersion 16
@@ -31,7 +31,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.google.code.gson:gson:2.7'
-    compile 'com.android.support:support-v13:25.0.1'
+    compile 'com.android.support:support-v13:25.3.1'
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-core:1.10.19'
